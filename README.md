@@ -9,7 +9,7 @@ as a note, im wanting to try again and the optimizations mod but the mod might/ 
 
 # Roadmap
 
-as a note these can change at any time something be added or removed
+as a note these can change at any time, things can be added or removed (these are basically just thoughts on what i want to try to do)
 
 1. Particle limiting (only allow so many particles and have a buffer to hold particles so new particles can still spawn if they wasnt held for to long)
 2. Clustered projectiles (if we have for example 3 projectiles all going roughly the same way and will hit roughly the same spot just combine them together)
