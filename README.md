@@ -19,6 +19,7 @@ as a note these can change at any time, things can be added or removed (these ar
 6. Render Scale option (simplifying things like collisions and textures)
 7. Texture size limit (some mods make very high textures when the game primarily uses low textures, this basically would just force limit it for lower end machines)
 8. Dynamic Simplification (depending on FPS will first check particles > ai > texture size > collisions and limit things that are determined as less important
+9. Shader refactoring (some mods contain shaders in them and sometimes they're doing abit to much for med-low end machines to handle, this would just find said shaders and use alot simpler logic though this could make the effect they wanted to look abit off but should mostly work)
 
 these features are just me speculating on what is causing performance loss, i dont know how to use a profiler with TModLoader/ Terraria but im trying to ask around and look into it - if you know how to profile TModLoader/ Terraria please lmk! it would help alot 🙏
 
